@@ -2,7 +2,7 @@ import { Box } from '@mui/system'
 
 import Header from '../components/Header'
 
-const Dashboard = () => {
+export default function Dashboard() {
   return (
     <Box m='20px'>
       <Box display='flex'
@@ -13,5 +13,3 @@ const Dashboard = () => {
     </Box>
   )
 }
-
-export default Dashboard
